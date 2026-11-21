@@ -1,0 +1,35 @@
+{
+  "name": "jail-path",
+  "version": "1.0.0",
+  "description": "Confine and resolve untrusted user-supplied file paths strictly within an allowed root directory.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "path-traversal",
+    "security",
+    "chroot",
+    "sanitize-path",
+    "safe-path",
+    "file-upload"
+  ],
+  "license": "MIT"
+}
