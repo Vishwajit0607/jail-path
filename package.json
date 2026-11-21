@@ -31,5 +31,13 @@
     "safe-path",
     "file-upload"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuhaniSharma27/jail-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuhaniSharma27/jail-path/issues"
+  },
+  "homepage": "https://github.com/SuhaniSharma27/jail-path#readme",
   "license": "MIT"
 }
